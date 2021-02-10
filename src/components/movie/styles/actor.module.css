@@ -1,0 +1,29 @@
+.actorPhoto{
+	/*height:15%;*/
+	margin:0;
+	padding:0;
+}
+.actorRole{
+	margin:0; 
+	padding:5%;
+	background-color:#353535;
+}
+.creditsCard{
+	height:140px;
+}
+.creditsPoster{
+	margin:0;
+	margin-bottom:3%;
+	width:100%;
+}
+.actorAreaText{
+	color:white;
+}
+.actorImg{
+	width: 100%;
+	/*margin-bottom:15%;*/
+	height:100%;
+	opacity: 1;
+}
+
+

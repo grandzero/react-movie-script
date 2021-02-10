@@ -1,0 +1,33 @@
+
+.movieContent{
+	/*height:300px;*/
+	/*margin: auto;*/
+	padding: 0.5%;
+	font-size: 18px;
+	color:white;
+	/*background-color:green;*/
+}
+.movieContentArea{
+	background: rgba(0, 0, 0, 0.7);
+	padding: 5%;
+	
+}
+.movieTitle{
+	color:white;
+	font-size:52px;
+}
+.plotArea{
+	color:white;
+	margin-bottom: 5%;		
+}
+.imdbRating{
+	font-size:25px;
+	
+}
+.plotText{
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+

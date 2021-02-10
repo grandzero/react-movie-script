@@ -1,0 +1,26 @@
+/* Top Headers Movie Info Area */
+
+.moviePosterImg{
+	padding:0;
+	margin:0 ;
+	height:100%;
+}
+.posterImg{
+	width: 100%;
+	/*margin-bottom:15%;*/
+	height:100%;
+	opacity: 1;
+}
+
+.movieTitle{
+	color:white;
+	font-size:52px;
+}
+.plotArea{
+	color:white;
+	margin-bottom: 5%;		
+}
+.imdbRating{
+	font-size:25px;
+	
+}

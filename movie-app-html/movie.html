@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html>
+  <head>
+    
+    <script src="./lib/script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	<title>React Movie App</title>
+	<link rel="stylesheet" href="lib/movie.css">
+  </head>
+
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container">
+    <a class="navbar-brand" style="color:white" href="#">Navbar</a>
+	   <span class="navbar-text" style="color:white">
+		Navbar text with an inline element
+		</span>
+  </div>
+</nav>
+
+	<!-- Main Hedaer Contins Movie poster as background, title, name and imdb -->
+	<section  class="main-header text-align-bottom" > 
+		<div class="container header-container align-bottom">
+			<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 movie-poster-img">
+				<img class="poster-img" src="http://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 movie-content-area">
+				<h1 class="movie-title">Some Title</h1>
+				<br>
+				<div class="row" style="color:white;font-size:25px;font-weight:bold;margin-bottom:25px;">PLOT</div>
+				
+				<div class="plot-area row">---[This area should be max 402 character long]----Isn't that fantastic that you can make whole mountains in minutes? I'm sort of a softy, I couldn't shoot Bambi except with a camera. Maybe there's a happy little bush that lives right there. A little happy sunlight shining through there. So often we avoid running water, and running water is a lot of fun.
+
+Trees grow in all kinds of ways. They're not all perfectly straight. Not every limb is perfect.</div>
+		
+			<div style="color:white" class="row imdb-rating">IMDB Rating : 7.4</div>
+			</div>	
+				
+				
+			
+			
+			</div>
+		</div>
+	</section>
+	
+	<!-- Icon Bar -->
+	<section class="icon-bar-section align-center">
+		<div class="container icon-bar-container">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row align-center text-align-center">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 running-time"><i class="far fa-clock"></i> <span class ="icons-text"> Running Time: 2h 11m</span></div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 budget"><i class="far fa-money-bill-alt"></i> <span class ="icons-text"> Budget: $1,900,000</span></div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 revenue"><i class="fas fa-ticket-alt"></i> <span class ="icons-text"> Revenue: $0</span></div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="credits-grid">
+				<div class="container">
+			<div class="row">
+				<div class="credits-poster col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3"> 
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row credits-card">
+						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 actor-photo">
+							<img class="poster-img" src="http://image.tmdb.org/t/p/w154/algQ1VEno2W9SesoArWcZTeF617.jpg">
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 actor-role">
+						<div class="row actor-area-text">Actor Name</div>
+						<div class="row actor-area-text">Actor Role</div>
+						</div>
+					</div>
+				</div>
+				
+
+			</div>
+		</div>
+	</section>
+		<section class="icon-bar-section align-center">
+		<div class="container icon-bar-container">
+			
+		</div>
+	</section>
+  </body>
+</html>

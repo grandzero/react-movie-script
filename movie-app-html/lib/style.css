@@ -1,0 +1,137 @@
+nav {
+	height: 10vh;
+}
+
+.main-header{
+	
+	/*background: linear-gradient(rgba(0, 0, 0, 0) 39%, rgba(0, 0, 0, 0) 41%, rgba(0, 0, 0, 0) 100%), url("http://image.tmdb.org/t/p/w1280/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg"), rgb(28, 28, 28);*/
+	/*background : url("http://image.tmdb.org/t/p/w1280/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 600px;*/
+	
+	/* The image used */
+  background-image: url("http://image.tmdb.org/t/p/w1280/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg");
+
+  /* Full height */
+  height: 700px; 
+
+  /* Center and scale the image nicely */
+  /*This part is for movie page*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 17% 40% 5% 15%;
+  
+	
+	
+}
+
+.header-container{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	margin: auto;
+	
+	
+}
+.movie-title-text{
+	font-size : 42px;
+	color:white;
+}
+.movie-title{
+	/*height:100px;*/
+	/*margin: auto;*/
+	padding: 0.5%;
+
+	/*background-color: red;*/
+}
+.movie-score{
+	/*height:100px;*/
+	/*margin: auto;*/
+	padding: 0.5%;
+	font-size: 35px;
+	color:white;
+	/*background-color: blue;*/
+}
+.movie-content{
+	/*height:300px;*/
+	/*margin: auto;*/
+	padding: 0.5%;
+	font-size: 18px;
+	color:white;
+	/*background-color:green;*/
+}
+
+/*Search Bar*/
+.search-bar-section{
+    width: 100%;
+    height: 105px;
+    background: #1c1c1c;
+    position: relative;
+    padding: 25px 20px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+	
+	
+}
+.searchbar-content{
+    max-width: 1280px;
+    width: 100%;
+    height: 55px;
+    background: #353535;
+    margin: 0 auto;
+    border-radius: 40px;
+    position: relative;
+    color: #fff;
+}
+.search-icon{
+	position: absolute;
+    left: 20px;
+    top: 12px;
+    color: #fff;
+}
+.searchbar-input{
+	font-family: Abel,sans-serif;
+    font-size: 38px;
+    position: absolute;
+    left: 70px;
+    top: 7px;
+    border: 0;
+    background: transparent;
+    height: 40px;
+    color: #fff;
+	width:90%;
+}
+input:focus{
+    outline: none;
+}
+
+
+.row{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	padding-top:2%;
+}
+.poster-img{
+	width: 100%;
+	margin-bottom:15%;
+}
+
+/*Load More Button*/
+.load-more-button{
+	width: 100%;
+	font-size: 42px;
+}
+
+
+
+
+
+
+
+
